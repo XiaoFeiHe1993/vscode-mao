@@ -1,0 +1,66 @@
+{
+  "name": "quotations-mao",
+  "displayName": "Quotations-Mao",
+  "description": "Quotations from Mao",
+  "version": "1.0.1",
+  "publisher": "xiaofeihe",
+  "icon": "logo.png",
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "mao"
+  ],
+  "bugs": {
+    "url": "https://github.com/XiaoFeiHe1993/vacode-mao/issues",
+    "email": "1712776213@qq.com"
+  },
+  "homepage": "https://github.com/XiaoFeiHe1993/vacode-mao",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XiaoFeiHe1993/vacode-mao.git"
+  },
+  "activationEvents": [
+    "onCommand:mao.showReminderView",
+    "*"
+  ],
+  "main": "./out/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "mao.showReminderView",
+        "title": "打开语录",
+        "category": "report"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "语录",
+      "properties": {
+        "report.title": {
+          "type": "string",
+          "default": "好好学习，天天向上",
+          "description": "页面内展示文字"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4",
+    "vscode": "^1.1.36",
+    "tslint": "^5.20.1",
+    "@types/node": "^13.1.4",
+    "@types/mocha": "^5.2.7"
+  },
+  "__npminstall_done": false
+}
