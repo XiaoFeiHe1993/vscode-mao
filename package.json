@@ -15,13 +15,13 @@
     "mao"
   ],
   "bugs": {
-    "url": "https://github.com/XiaoFeiHe1993/vacode-mao/issues",
+    "url": "https://github.com/XiaoFeiHe1993/vscode-mao/issues",
     "email": "1712776213@qq.com"
   },
-  "homepage": "https://github.com/XiaoFeiHe1993/vacode-mao",
+  "homepage": "https://github.com/XiaoFeiHe1993/vscode-mao",
   "repository": {
     "type": "git",
-    "url": "https://github.com/XiaoFeiHe1993/vacode-mao.git"
+    "url": "https://github.com/XiaoFeiHe1993/vscode-mao.git"
   },
   "activationEvents": [
     "onCommand:mao.showReminderView",

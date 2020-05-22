@@ -1,6 +1,7 @@
 import * as vscode from 'vscode'
 import Asset from './asset'
 import quotations from './quotations'
+import { Utility } from './utility'
 
 export class ReminderView {
   private static panel: vscode.WebviewPanel | undefined
@@ -9,7 +10,7 @@ export class ReminderView {
     let asset: Asset = new Asset(context)
 
     const imagePath = asset.getImageUri()
-    const title = quotations.quotations[0]
+    const title = quotations[Utility.randomNum(quotations.length - 1)]
     const documentTitle = 'quotations from mao'
 
     if (this.panel) {
