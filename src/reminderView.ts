@@ -40,7 +40,7 @@ export class ReminderView {
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>${documentTitle}</title>
         </head>
-        <body style="display: flex;flex-direction: column;justify-content: center;align-items: center;margin-top: 200px">
+        <body style="display: flex;flex-direction: column;justify-content: center;align-items: center;margin-top: 100px">
             <div><h1 style="font-size: 40px;text-align: center;">${title}</h1></div>
             <div><img src="${imagePath}" style="max-width: 400px;margin-top: 50px;"></div>
         </body>
