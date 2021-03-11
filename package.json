@@ -56,11 +56,11 @@
     "test": "npm run compile && node ./node_modules/vscode/bin/test"
   },
   "devDependencies": {
-    "typescript": "^3.7.4",
-    "vscode": "^1.1.36",
-    "tslint": "^5.20.1",
-    "@types/node": "^13.1.4",
-    "@types/mocha": "^5.2.7"
+    "typescript": "3.9.3",
+    "vscode": "1.1.37",
+    "tslint": "5.20.1",
+    "@types/node": "13.13.8",
+    "@types/mocha": "5.2.7"
   },
   "__npminstall_done": false
 }
