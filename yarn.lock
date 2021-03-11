@@ -28,10 +28,10 @@
   resolved "http://med-nexus.yitu-inc.com/repository/yitu-internal-test/@types/mocha/-/mocha-5.2.7.tgz"
   integrity sha1-MV1XDMtWxTRS/4Y4c432BybVtuo=
 
-"@types/node@13.13.8":
-  version "13.13.8"
-  resolved "https://registry.npmjs.org/@types/node/-/node-13.13.8.tgz"
-  integrity sha512-WJoiKALUF5exZo0G3T5coauJR2Tmc6rdE9/kgppZVnV6rlUB2dl3gTu2GTNBKhKF6SZ/WFfpEUIGNC/0qvdMWA==
+"@types/node@13.13.46":
+  version "13.13.46"
+  resolved "https://registry.npmjs.org/@types/node/-/node-13.13.46.tgz"
+  integrity sha512-dqpbzK/KDsOlEt+oyB3rv+u1IxlLFziZu/Z0adfRKoelkr+sTd6QcgiQC+HWq/vkYkHwG5ot2LxgV05aAjnhcg==
 
 agent-base@4, agent-base@^4.3.0:
   version "4.3.0"
