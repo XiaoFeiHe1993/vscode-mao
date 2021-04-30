@@ -59,7 +59,7 @@
     "typescript": "4.2.4",
     "vscode": "1.1.37",
     "tslint": "5.20.1",
-    "@types/node": "13.13.46",
+    "@types/node": "13.13.51",
     "@types/mocha": "8.2.2"
   },
   "__npminstall_done": false
